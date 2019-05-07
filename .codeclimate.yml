@@ -1,6 +1,11 @@
-version: '1'
-exclude_patterns:
-  - '*.md'
-  - 'e2e'
-  - 'resources'
-  - 'www/*'
+version: '2'
+   exclude_patterns:
+     - 'docs'
+     - 'documentation'
+     - 'dist'
+     - '**/*.log'
+     - '**/*.ico'
+     - 'e2e/'
+     - 'src/assets/'
+     - 'src/typings.d.ts'
+     - 'src/app/**/*.spec.ts'
